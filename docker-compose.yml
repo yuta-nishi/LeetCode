@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  leetcode:
+    image: python3_10
+    container_name: leetcode
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    tty: true
+    volumes:
+      - .:/workdir
