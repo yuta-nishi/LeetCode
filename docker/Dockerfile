@@ -1,6 +1,5 @@
-ARG PYTHON_VERSION=3.10
+FROM python:3.10
 
-FROM python:${PYTHON_VERSION}
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update -qq && \
     apt-get install -y \
