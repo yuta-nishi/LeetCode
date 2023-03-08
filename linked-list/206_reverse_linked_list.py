@@ -9,6 +9,7 @@ class ListNode:
 
 # Time: O(n)
 # Space: O(1)
+# Iterative
 
 
 class Solution:
@@ -27,6 +28,7 @@ class Solution:
 
 # Time: O(n)
 # Space: O(n)
+# Recursive
 
 
 class Solution:
