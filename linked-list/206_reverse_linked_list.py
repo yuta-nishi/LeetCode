@@ -33,7 +33,7 @@ class Solution:
 
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        if not head:
+        if head is None:
             return None
         new_head = head
         if head.next:
