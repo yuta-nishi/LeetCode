@@ -6,7 +6,6 @@ services:
     container_name: leetcode
     build:
       context: .
-      dockerfile: ./docker/Dockerfile
     tty: true
     volumes:
       - .:/workdir
