@@ -1,6 +1,8 @@
 .DS_store
 main.py
 linked_list.py
+tree.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
